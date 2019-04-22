@@ -1,0 +1,103 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+fastlane_require "dotenv"
+
+# ENV['FASTLANE_APP_IDENTIFIER_DEVELOP']="com.ovq633.wallet-test"
+# ENV['FASTLANE_PROVISIONING_PROFILE_DEVELOP']="match AdHoc com.ovq633.wallet-test"
+# ENV['FASTLANE_APP_IDENTIFIER_PRODUCTION']="com.ovq633.wallet"
+# ENV['FASTLANE_PROVISIONING_PROFILE_PRODUCTION']="match AdHoc com.ovq633.wallet"
+# ENV['FASTLANE_ENV']="develop"
+# ENV['FASTLANE_EXPORT_METHOD']="ad-hoc"
+# ENV['FASTLANE_SCHEME']="Runner"
+#
+# ENV['FASTLANE_MATCH_USERNAME']="foundation@ink.one"
+# ENV['FASTLANE_MATCH_GIT_URL']="ssh://git@gitlab.ziggurat.cn:10000/wallet/app-ios-match-profiles.git"
+# ENV['FASTLANE_MATCH_GIT_BRANCH']="master"
+# ENV['FASTLANE_MATCH_TYPE']="adhoc"
+
+# fastlane ios release --env=develop || fastlane ios release --env=production
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Build app"
+  lane :release do
+
+    # detect env
+    if ENV['FASTLANE_ENV'] == "develop"
+      app_identifier = ENV['FASTLANE_APP_IDENTIFIER_DEVELOP']
+      provisioning_profile = ENV['FASTLANE_PROVISIONING_PROFILE_DEVELOP']
+    else
+      app_identifier = ENV['FASTLANE_APP_IDENTIFIER_PRODUCTION']
+      provisioning_profile = ENV['FASTLANE_PROVISIONING_PROFILE_PRODUCTION']
+    end
+
+    Dir.chdir("../..") do
+      sh("flutter", "packages", "get")
+    end
+
+    cocoapods(
+      podfile: "./Podfile",
+      use_bundle_exec: false
+    )
+
+    # add actions here: https://docs.fastlane.tools/actions
+    Dir.chdir("../..") do
+      sh("flutter", "clean")
+      # if ios started with a blank screen, try this.  flutter build ios --release
+      sh("flutter", "build", "ios", "--release", "--no-codesign")
+    end
+
+    update_info_plist(
+      xcodeproj: "./Runner.xcodeproj",
+      plist_path: "./Runner/Info.plist",
+      app_identifier: "#{app_identifier}"
+    )
+
+
+    match(
+      app_identifier: "#{app_identifier}",
+      username: "#{ENV['FASTLANE_MATCH_USERNAME']}",
+      git_url: "#{ENV['FASTLANE_MATCH_GIT_URL']}",
+      git_branch: "#{ENV['FASTLANE_MATCH_GIT_BRANCH']}",
+      type: "#{ENV['FASTLANE_MATCH_TYPE']}",
+      shallow_clone: true,
+      clone_branch_directly: true,
+      readonly: true
+    )
+
+    build_app(
+      scheme: "#{ENV['FASTLANE_SCHEME']}",
+#      export_options:{
+#        signingStyle: "manual",
+#        provisioningProfiles: {
+#          "#{ENV['FASTLANE_APP_IDENTIFIER_PRODUCTION']}": "#{ENV['FASTLANE_PROVISIONING_PROFILE_PRODUCTION']}",
+#          "#{ENV['FASTLANE_APP_IDENTIFIER_DEVELOP']}": "#{ENV['FASTLANE_PROVISIONING_PROFILE_DEVELOP']}"
+#        }
+#      },
+      output_directory: "./release",
+      output_name: "#{ENV['FASTLANE_ENV']}.ipa",
+      clean: true,
+      export_method: "#{ENV['FASTLANE_EXPORT_METHOD']}",
+      silent: true,
+      xcargs: {
+        :PRODUCT_BUNDLE_IDENTIFIER => "#{app_identifier}",
+        :PROVISIONING_PROFILE_SPECIFIER => "#{provisioning_profile}",
+      },
+      export_xcargs: "-allowProvisioningUpdates"
+    )
+  end
+end

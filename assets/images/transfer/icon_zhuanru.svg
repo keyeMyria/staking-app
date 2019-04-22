@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icon_zhuanru</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill-rule="nonzero">
+            <g id="箭头">
+                <path d="M7.90590096,0.0297217382 C3.65573483,0.0297217382 0.168423208,3.62600224 0.168423208,7.87616837 C0.168423208,12.1263345 3.65573483,15.722615 8.01486984,15.722615 C12.3740048,15.722615 15.7523476,12.1263345 15.7523476,7.87616837 C15.7523476,3.62600224 12.265036,0.0297217382 7.90590096,0.0297217382 Z" id="形状" fill="#FD5658"></path>
+                <polygon id="路径" fill="#303356" transform="translate(8.014876, 7.876186) rotate(-225.000000) translate(-8.014876, -7.876186) " points="7.90590096 5.26068013 9.86752167 7.22230083 3.98267765 7.22230083 3.98267765 8.31208549 10.0854775 8.31208549 7.90590096 10.491662 8.66875004 11.2545111 12.0470747 7.87618646 8.66875004 4.49786181"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

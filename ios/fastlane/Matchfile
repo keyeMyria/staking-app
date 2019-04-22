@@ -1,0 +1,18 @@
+git_url("ssh://git@gitlab.ziggurat.cn:10000/wallet/app-ios-match-profiles.git")
+git_branch("master")
+storage_mode("git")
+
+type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
+
+app_identifier("com.ovq633.wallet,com.ovq633.wallet-test")
+shallow_clone true
+clone_branch_directly true
+team_id("GLT5ZAYG3M")
+team_name("Zhenqiang Yan")
+
+username("foundation@ink.one") # Your Apple Developer Portal username
+
+# For all available options run `fastlane match --help`
+# Remove the # in the beginning of the line to enable the other options
+
+# The docs are available on https://docs.fastlane.tools/actions/match

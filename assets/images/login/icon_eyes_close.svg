@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icon_eyes_close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012" stroke-linecap="round" stroke-linejoin="round">
+        <g id="登录" transform="translate(-317.000000, -384.000000)" stroke="#D6D6D6" stroke-width="1.30666664">
+            <g id="Group-2" transform="translate(24.000000, 240.000000)">
+                <g id="Group-8" transform="translate(0.000000, 109.000000)">
+                    <g id="Show-password-icon" transform="translate(293.000000, 35.000000)">
+                        <g id="eye-off" transform="translate(1.000000, 1.000000)">
+                            <path d="M10.78,10.78 C9.69219361,11.6091832 8.36761384,12.0685493 7,12.0909091 C2.54545455,12.0909091 0,7 0,7 C0.791566297,5.5248427 1.88944983,4.2360229 3.22,3.22 M5.66363636,2.06181818 C6.10166601,1.95928696 6.55013168,1.90803374 7,1.90909091 C11.4545455,1.90909091 14,7 14,7 C13.6137143,7.72265922 13.1530353,8.40301387 12.6254545,9.03 M8.34909091,8.34909091 C7.8731658,8.85984445 7.15640407,9.07008883 6.47999187,8.89734502 C5.80357966,8.72460121 5.27539879,8.19642034 5.10265498,7.52000813 C4.92991117,6.84359593 5.14015555,6.1268342 5.65090909,5.65090909" id="Shape"></path>
+                            <path d="M0,0 L14,14" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,185 @@
+{
+  "tabs": {
+    "tab1": "钱包",
+    "tab2": "理财",
+    "tab3": "我的"
+  },
+  "wallet_tab": {
+    "title": "我的钱包",
+    "button1": "转账",
+    "button2": "收款",
+    "address": "钱包地址",
+    "coin_type": "代币种类"
+  },
+  "financial_tab": {
+    "title": "理财",
+    "day": "天",
+    "hold": "已持有",
+    "day_rate": "预计收益年利率：",
+    "min_invest": "最少购买数量：",
+    "available_invest": "可用数量：",
+    "hold_num": "持有数量：",
+    "buy_button": "购买",
+    "alert_title": "金额不足",
+    "alert_desc": "可用金额不足，请先转入金额",
+    "alert_btn": "前往转入"
+  },
+  "transfer": {
+    "title": "转账",
+    "transfer_success": "转账成功",
+    "transfer_fail": "转账失败",
+    "field1": "代币类型",
+    "placeholder1": "请选择币种",
+    "field2": "收款地址",
+    "placeholder2": "请输入收款地址",
+    "field3": "代币数量",
+    "field3_supply": "余额",
+    "placeholder3": "请输入代币数量",
+    "field4": "手续费",
+    "field4_supply": "预估",
+    "button": "转账",
+    "sel_coin_tip": "请先选择币种",
+    "confirm_trans": "确认向对方转账",
+    "permit_refused": "请打开相机权限！",
+    "unknown_error": "未知错误：",
+    "return_error": "您在扫码之前已经点击了返回！",
+    "coin_num_error": "请输入正确的代币数量!"
+  },
+  "transfer_list": {
+    "title": "交易列表",
+    "trans_success": "转账成功",
+    "trans_out_success": "转出成功",
+    "trans_in_success": "转入成功",
+    "trans_fail": "转账失败",
+    "trans_out_fail": "转出失败",
+    "trans_in_fail": "转入失败",
+    "trans_process": "处理中",
+    "no_data": "Sorry～没有找到交易记录"
+  },
+  "transfer_detail": {
+    "title": "交易详情",
+    "field1": "发款方",
+    "field2": "收款方",
+    "field3": "代币地址",
+    "field4": "用户地址",
+    "field5": "交易哈希",
+    "field6": "矿工费",
+    "field7": "区块数",
+    "copy_button": "复制交易链接",
+    "copy_result": "复制成功"
+  },
+  "financial_history": {
+    "title": "购买历史",
+    "tab1": "持有中",
+    "tab2": "已退出",
+    "end_date": "到期日：",
+    "trans_date": "转让日：",
+    "predict_rate": "预计收益年利率",
+    "invest_amount": "投资金额：",
+    "had_profit": "已有收益：",
+    "no_data": "Sorry～没有找到购买记录",
+    "state_holding": "持有中",
+    "state_process": "处理中",
+    "state_fail": "购买失败"
+  },
+  "privacy": {
+    "title": "用户协议"
+  },
+  "language_title": "切换语言",
+  "login": {
+    "phone_number": "手机号码",
+    "phone_placeholder": "请输入电话号码",
+    "password": "密码",
+    "password_placeholder": "请输入密码",
+    "forget_password": "忘记密码",
+    "login": "登录",
+    "new_user": "新用户注册",
+    "login_error": "账号或者密码不能为空"
+  },
+  "register": {
+    "title": "注册",
+    "get_password_title": "找回密码",
+    "phone_error": "请输入正确的手机号码",
+    "verification_error": "验证码格式错误",
+    "privacy_error": "请勾选协议",
+    "verification": "验证码",
+    "btn": "下一步",
+    "agree": "我已阅读并且同意",
+    "service_terms": "《服务条款》",
+    "privacy_policy": "《隐私协议》",
+    "service_terms_title": "服务条款",
+    "privacy_policy_title": "隐私协议",
+    "management_agreement_title": "钱包服务协议"
+  },
+  "set_password": {
+    "password_format_error": "密码为8-24位字符",
+    "password_content_error": "密码不一致",
+    "confirm_password": "确认密码",
+    "again_password": "请再次输入密码",
+    "get_password_success": "修改成功，请登录",
+    "register_success": "注册成功",
+    "confirm": "确定"
+  },
+  "change_password": {
+    "title": "修改密码",
+    "old_password": "旧密码",
+    "old_password_placeholder": "请输入旧密码",
+    "new_password": "新密码",
+    "new_password_placeholder": "请输入新的密码",
+    "confirm_new_password": "确认新的密码",
+    "confirm_new_password_place": "请再次输入新密码",
+    "change_password_success": "密码修改成功"
+  },
+  "receipt": {
+    "title": "收款",
+    "copy_wallet_address": "复制钱包地址",
+    "copy_success_tip": "复制成功"
+  },
+  "user_table": {
+    "my_text": "我的",
+    "change_password": "修改密码",
+    "switch_language": "切换语言",
+    "user_privacy": "用户协议",
+    "version_info": "版本信息",
+    "sign_out": "退出登录",
+    "sign_out_confirm": "确定退出登录吗？",
+    "close": "取消",
+    "sign_out_success": "退出成功"
+  },
+  "alert_module_confirm": "确定",
+  "alert_module_cancel": "取消",
+  "input_phone": "验证",
+  "buy_financial": {
+    "title": "购买理财",
+    "buy_price": "购买金额",
+    "buy_price_placeholder": "请输入购买金额",
+    "balance": "余额",
+    "investment_time": "投资时长",
+    "time_unit": "天",
+    "end_time": "到期日：",
+    "income_text": "预计收益年利率",
+    "pay_back": "预计回报",
+    "wallet_protocol": "《钱包服务协议》",
+    "confirm_buy": "确认购买",
+    "confirm_info": "的理财产品",
+    "buy_number_error": "购买金额输入错误",
+    "agree_privacy": "请同意钱包服务协议",
+    "success": "购买成功",
+    "more_then_max": "输入金额不能高于",
+    "more_the_min": "输入金额不能低于",
+    "format_error": "输入金额格式错误"
+  },
+  "version": {
+    "new_version": "发现新版本\n",
+    "go_update": "去更新"
+  },
+  "error": {
+    "network": "网络异常",
+    "format": "格式不正确",
+    "http500": "服务器错误",
+    "http429": "请求过于频繁，请稍后再试",
+    "timeout": "请求超时",
+    "no_connect": "Sorry～连接不到网络！",
+    "re_connect_btn": "点击重试"
+  }
+}

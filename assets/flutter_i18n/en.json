@@ -1,0 +1,185 @@
+{
+  "tabs": {
+    "tab1": "Wallet",
+    "tab2": "Fortune",
+    "tab3": "Me"
+  },
+  "wallet_tab": {
+    "title": "My Wallet",
+    "button1": "Transfer",
+    "button2": "Receive",
+    "address": "Wallet Address",
+    "coin_type": "Token Type"
+  },
+  "financial_tab": {
+    "title": "Fortune",
+    "day": "Days",
+    "hold": "Held",
+    "day_rate": "Expected Annual Yield: ",
+    "min_invest": "Minimum Purchase: ",
+    "available_invest": "Available: ",
+    "hold_num": "Total: ",
+    "buy_button": "Purchase",
+    "alert_title": "Insufficient balance",
+    "alert_desc": "Insufficient balance. Please transfer in and try again",
+    "alert_btn": "Transfer"
+  },
+  "transfer": {
+    "title": "Transfer",
+    "transfer_success": "Transfer successfully",
+    "transfer_fail": "Fail to transfer",
+    "field1": "Token Type",
+    "placeholder1": "Please select token type",
+    "field2": "Wallet Address",
+    "placeholder2": "Please enter wallet address",
+    "field3": "Token Number",
+    "field3_supply": "Balance",
+    "placeholder3": "Please enter token amount",
+    "field4": "Service Fee",
+    "field4_supply": "Estimate",
+    "button": "Transfer",
+    "sel_coin_tip": "Please select token type",
+    "confirm_trans": "Please confirm the transfer",
+    "permit_refused": "Please allow camera access!",
+    "unknown_error": "Unknown Error: ",
+    "return_error": "You click return before scanning the code!",
+    "coin_num_error": "Please enter the correct Token number!"
+  },
+  "transfer_list": {
+    "title": "Transaction Record",
+    "trans_success": "Transaction is successful",
+    "trans_out_success": "Transfer Successfully",
+    "trans_in_success": "Collect Successfully",
+    "trans_fail": "Failure of Transaction",
+    "trans_out_fail": "Fail to Transfer",
+    "trans_in_fail": "Fail to Collect",
+    "trans_process": "Processing",
+    "no_data": "Sorry~No transaction record is found."
+  },
+  "transfer_detail": {
+    "title": "Transaction Detail",
+    "field1": "Sender",
+    "field2": "Receiver",
+    "field3": "Token Address",
+    "field4": "User Address",
+    "field5": "Transaction Hash",
+    "field6": "Miner fee",
+    "field7": "Block Count",
+    "copy_button": "Copy Transaction Address",
+    "copy_result": "Copy Successfully"
+  },
+  "financial_history": {
+    "title": "Purchase History",
+    "tab1": "In Possession",
+    "tab2": "With drawl",
+    "end_date": "Maturity Date: ",
+    "trans_date": "Transfer Date: ",
+    "predict_rate": "Expected Interest Rate",
+    "invest_amount": "Total Investment: ",
+    "had_profit": "Earnings: ",
+    "no_data": "Sorry~ No purchasing records have been found",
+    "state_holding": "Held",
+    "state_process": "Processing",
+    "state_fail": "Fail to purchase"
+  },
+  "privacy": {
+    "title": "User Agreement"
+  },
+  "language_title": "Change Language",
+  "login": {
+    "phone_number": "Mobile Phone Number",
+    "phone_placeholder": "Please Enter Phone Number",
+    "password": "Password",
+    "password_placeholder": "Please Enter Password",
+    "forget_password": "Forget Password",
+    "login": "Log in",
+    "new_user": "Register",
+    "login_error": "Please Enter Valid Account and Password"
+  },
+  "register": {
+    "title": "Register",
+    "get_password_title": "Find Password",
+    "phone_error": "Please Enter Correct Mobile Phone Number",
+    "verification_error": "Incorrect Verification Code",
+    "privacy_error": "Please Click to Accept the Agreement",
+    "verification": "Verification Code",
+    "btn": "Next Step",
+    "agree": "I have read and agreed to ",
+    "service_terms": "Terms of Service, ",
+    "privacy_policy": "Privacy Policy",
+    "service_terms_title": "Terms of Service",
+    "privacy_policy_title": "Privacy Policy",
+    "management_agreement_title": "Wallet Service Agreement"
+  },
+  "set_password": {
+    "password_format_error": "Password must be 8-24 characters",
+    "password_content_error": "Passwords don't match",
+    "confirm_password": "Confirm Password",
+    "again_password": "Please Enter Password Again",
+    "get_password_success": "Revise successfully. Please log in",
+    "register_success": "Register successfully",
+    "confirm": "Confirm"
+  },
+  "change_password": {
+    "title": "Change Password",
+    "old_password": "Old Password",
+    "old_password_placeholder": "Please Enter Old Password",
+    "new_password": "New Password",
+    "new_password_placeholder": "Please Enter New Password",
+    "confirm_new_password": "Confirm New Password",
+    "confirm_new_password_place": "Please Enter New Password Again",
+    "change_password_success": "You have successfully revised password"
+  },
+  "receipt": {
+    "title": "Collect",
+    "copy_wallet_address": "Copy Wallet Address",
+    "copy_success_tip": "Copy Successfully"
+  },
+  "user_table": {
+    "my_text": "Me",
+    "change_password": "Change Password",
+    "switch_language": "Change language",
+    "user_privacy": "User Agreement",
+    "version_info": "Version Information",
+    "sign_out": "Log Out",
+    "sign_out_confirm": "Confirm Logging Out?",
+    "close": "Cancel",
+    "sign_out_success": "Logging Out Successfully"
+  },
+  "alert_module_confirm": "Confirm",
+  "alert_module_cancel": "Cancel",
+  "input_phone": "Verify",
+  "buy_financial": {
+    "title": "Purchase Financial Product",
+    "buy_price": "Purchase Amount",
+    "buy_price_placeholder": "Please Enter Purchase Amount",
+    "balance": "Balance",
+    "investment_time": "Investment Duration",
+    "time_unit": "Days",
+    "end_time": "Maturity Date: ",
+    "income_text": "Expected Annual Yield",
+    "pay_back": "Return",
+    "wallet_protocol": "Wallet Service Agreement",
+    "confirm_buy": "Confirm Purchase",
+    "confirm_info": "Financial Product",
+    "buy_number_error": "Please Enter the Correct Amount",
+    "agree_privacy": "Please Accept Wallet Service Agreement",
+    "success": "Purchase Successfully",
+    "more_then_max": "Maximum Purchase Amount is ",
+    "more_the_min": "Minimum amount is ",
+    "format_error": "Invalid Amount"
+  },
+  "version": {
+    "new_version": "New version available\n",
+    "go_update": "Go update"
+  },
+  "error": {
+    "network": "Network Error",
+    "format": "Wrong Format",
+    "http500": "Server Error",
+    "http429": "Requests are too frequent, please try again later",
+    "timeout": "Request Timed Out",
+    "no_connect": "Sorry~ can't connect to the network!",
+    "re_connect_btn": "Retry"
+  }
+}

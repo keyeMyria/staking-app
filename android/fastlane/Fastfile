@@ -1,0 +1,45 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+fastlane_require "dotenv"
+
+# ENV['FASTLANE_APP_IDENTIFIER']="com.ovq633.wallet"
+# ENV['FASTLANE_SIGNING_STORE_FILE']="keystore/develop.jks"
+# ENV['FASTLANE_SIGNING_STORE_PASSWORD']="Xq4f4lYWHTJ7ZocNgHs7YXrbCGzqOXkZ"
+# ENV['FASTLANE_SIGNING_KEY_ALIAS']="key"
+# ENV['FASTLANE_SIGNING_KEY_PASSWORD']="Xq4f4lYWHTJ7ZocNgHs7YXrbCGzqOXkZ"
+
+default_platform(:android)
+
+platform :android do
+
+  desc "Submit a new Beta Build to Crashlytics Beta"
+  lane :release do
+    Dir.chdir("../..") do
+      sh("flutter", "packages", "get")
+      sh("flutter", "clean")
+      sh("flutter", "build", "apk", "--release")
+    end
+    gradle(
+      task: "clean assembleRelease", 
+      properties: {
+        "android.injected.signing.store.file" => "#{ENV['FASTLANE_SIGNING_STORE_FILE']}",
+        "android.injected.signing.store.password" => "#{ENV['FASTLANE_SIGNING_STORE_PASSWORD']}",
+        "android.injected.signing.key.alias" => "#{ENV['FASTLANE_SIGNING_KEY_ALIAS']}",
+        "android.injected.signing.key.password" => "#{ENV['FASTLANE_SIGNING_KEY_PASSWORD']}",
+      }
+    )
+  end
+end

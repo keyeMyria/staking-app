@@ -1,0 +1,188 @@
+{
+  "tabs": {
+    "tab1": "지갑",
+    "tab2": "재테크",
+    "tab3": "내 프로필"
+  },
+  "wallet_tab": {
+    "title": "내 지갑",
+    "button1": "이체",
+    "button2": "수령",
+    "address": "지갑 주소",
+    "coin_type": "토큰 종류"
+  },
+  "financial_tab": {
+    "title": "재테크",
+    "day": "일",
+    "hold": "이미 보유",
+    "day_rate": "예상 일일 수익 이자율: ",
+    "min_invest": "최소 매수 수량: ",
+    "available_invest": "사용 가능 수량: ",
+    "hold_num": "보유 수량: ",
+    "buy_button": "매수",
+    "alert_title": "금액 부족",
+    "alert_desc": "사용 가능한 금액이 부족합니다. 먼저 입금해주세요.",
+    "alert_btn": "입금하기"
+  },
+  "transfer": {
+    "title": "이체",
+    "transfer_success": "이체 완료",
+    "transfer_fail": "이체 실패",
+    "field1": "토큰 종류",
+    "placeholder1": "코인 종류를 선택해주세요.",
+    "field2": "수령 주소",
+    "placeholder2": "수령 주소를 기입해주세요.",
+    "field3": "토큰 수량",
+    "field3_supply": "잔액",
+    "placeholder3": "토큰 수량을 기입해주세요.",
+    "field4": "수수료",
+    "field4_supply": "예상 금액",
+    "button": "이체",
+    "sel_coin_tip": "우선 코인 종류를 선택해주세요.",
+    "confirm_trans": "상대방에게 이체 확인하기",
+    "permit_refused": "카메라 접근을 허용해주세요.",
+    "unknown_error": "알 수 없는 오류: ",
+    "return_error": "QR 코드를 스캔하기 전 돌아가기를 눌렀습니다!",
+    "coin_num_error": "토큰 수량을 정확히 입력해 주세요!"
+  },
+  "transfer_list": {
+    "title": "거래 목록",
+    "trans_success": "이체 완료",
+    "trans_out_success": "출금 완료",
+    "trans_in_success": "입금 완료",
+    "trans_fail": "이체 실패",
+    "trans_out_fail": "출금 실패",
+    "trans_in_fail": "입금 실패",
+    "trans_process": "처리중",
+    "no_data": "죄송합니다~ 거래내역을 찾을 수 없습니다."
+  },
+  "transfer_detail": {
+    "title": "거래상세내역",
+    "field1": "지불자",
+    "field2": "수령자",
+    "field3": "토큰 주소",
+    "field4": "사용자 주소",
+    "field5": "거래 해시함수",
+    "field6": "마이너 비용",
+    "field7": "블록 수",
+    "copy_button": "거래 링크 복사",
+    "copy_result": "복사 완료"
+  },
+  "financial_history": {
+    "title": "매수 내역",
+    "tab1": "보유중",
+    "tab2": "로그아웃됨",
+    "end_date": "만기일: ",
+    "trans_date": "양도일: ",
+    "predict_rate": "예상 수익 이자율",
+    "invest_amount": "투자 금액: ",
+    "had_profit": "기존 수익: ",
+    "no_data": "죄송합니다~ 구매기록이 없습니다",
+    "state_holding": "보유중",
+    "state_process": "처리중",
+    "state_fail": "구매 실패"
+  },
+  "privacy": {
+    "title": "사용자약관"
+  },
+  "language_title": "언어 바꾸기",
+  "login": {
+    "phone_number": "휴대폰 번호",
+    "phone_placeholder": "전화번호를 기입해주세요.",
+    "password": "비밀번호",
+    "password_placeholder": "비밀번호를 기입해주세요.",
+    "forget_password": "비밀번호 분실",
+    "login": "로그인",
+    "new_user": "회원가입",
+    "login_error": "계정 또는 비밀번호는 필수 기입 항목"
+  },
+  "register": {
+    "title": "가입",
+    "get_password_title": "비밀번호 찾기",
+    "phone_error": "정확한 휴대폰 번호를 기입해주세요.",
+    "verification_error": "인증 번호 형식 오류",
+    "privacy_error": "약관에 체크해주세요.",
+    "verification": "인증번호",
+    "btn": "다음",
+    "agree": "본인은 관련 내용을 확인하였으며 내용에 동의합니다.",
+    "service_terms": "서비스약관, ",
+    "privacy_policy": "프라이버시약관",
+    "service_terms_title": "서비스약관",
+    "privacy_policy_title": "프라이버시약관",
+    "management_agreement_title": "지갑 서비스약관"
+  },
+  "set_password": {
+    "password_format_error": "비밀번호는 알파벳/숫자 8~24자리로 입력해주세요.",
+    "password_content_error": "비밀번호가 일치하지 않음",
+    "confirm_password": "비밀번호 확인",
+    "again_password": "비밀번호를 다시 기입해주세요.",
+    "get_password_success": "수정 완료, 로그인해주세요.",
+    "register_success": "가입 완료",
+    "confirm": "확인"
+  },
+  "change_password": {
+    "title": "비밀번호 수정",
+    "old_password": "기존 비밀번호",
+    "old_password_placeholder": "기존 비밀번호를 기입해주세요.",
+    "new_password": "새 비밀번호",
+    "new_password_placeholder": "새 비밀번호를 기입해주세요.",
+    "confirm_new_password": "새 비밀번호 확인",
+    "confirm_new_password_place": "새 비밀번호를 다시 기입해주세요.",
+    "change_password_success": "비밀번호 수정 완료"
+  },
+  "receipt": {
+    "title": "수령",
+    "copy_wallet_address": "지갑 주소 복사",
+    "copy_success_tip": "복사 완료"
+  },
+  "user_table": {
+    "my_text": "내 프로필",
+    "change_password": "비밀번호 수정",
+    "switch_language": "언어 바꾸기",
+    "user_privacy": "사용자약관",
+    "version_info": "저작권 정보",
+    "sign_out": "로그아웃",
+    "sign_out_confirm": "정말로 로그아웃 하시겠습니까?",
+    "close": "취소",
+    "sign_out_success": "로그아웃 완료"
+  },
+  "alert_module_confirm": "확인",
+  "alert_module_cancel": "취소",
+  "input_phone": "인증",
+  "buy_financial": {
+    "title": "재테크 매수",
+    "buy_price": "매수 금액",
+    "buy_price_placeholder": "매수 금액을 기입해주세요.",
+    "balance": "잔액",
+    "investment_time": "투자 시간 연장",
+    "time_unit": "일",
+    "end_time": "만기일: ",
+    "income_text": "일일 수익 이자율",
+    "pay_back": "페이백",
+    "wallet_protocol": " 지갑 서비스약관 ",
+    "confirm_buy": "매수 확인",
+    "confirm_info": "~에 관한 재테크 상품",
+    "buy_number_error": "매수 금액 기입 오류",
+    "agree_privacy": "지갑 서비스약관에 동의해주세요.",
+    "success": "매수 완료",
+    "more_then_max": "기입 금액은 ？？？ 초과할 수 없습니다.",
+    "more_then_max_1": "기입 금액은 ",
+    "more_then_max_2": " 초과할 수 없습니다",
+
+    "more_the_min": "이하 입력할 수 없습니다 ",
+    "format_error": "기입한 금액 형식 오류"
+  },
+  "version": {
+    "new_version": "새로운 버전\n",
+    "go_update": "업데이트"
+  },
+  "error": {
+    "network": "네트워크 이상",
+    "format": "포맷이 정확하지 않습니다",
+    "http500": "서버 오류",
+    "http429": "요청이 너무 잦습니다. 나중에 다시 시도하십시오.",
+    "timeout": "요청 제한 시간",
+    "no_connect": "죄송합니다 ~ ~ 네트워크에 연결할 수 없습니다!",
+    "re_connect_btn": "다시 시도하십시오."
+  }
+}

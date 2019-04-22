@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icon_zhuanziji@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-2" fill-rule="nonzero">
+            <g id="箭头" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) ">
+                <path d="M7.90590096,0.0297217382 C3.65573483,0.0297217382 0.168423208,3.62600224 0.168423208,7.87616837 C0.168423208,12.1263345 3.65573483,15.722615 8.01486984,15.722615 C12.3740048,15.722615 15.7523476,12.1263345 15.7523476,7.87616837 C15.7523476,3.62600224 12.265036,0.0297217382 7.90590096,0.0297217382 Z" id="形状" fill="#75768D"></path>
+                <polygon id="路径" fill="#303356" transform="translate(10.507033, 6.492967) rotate(-135.000000) translate(-10.507033, -6.492967) " points="6.16912374 4.47686167 6.16912374 5.56664632 12.2719236 5.56664632 10.0923471 7.74622287 10.8551961 8.50907195 14.8449426 4.51932544"></polygon>
+                <polygon id="路径" fill="#303356" transform="translate(6.252126, 10.289152) scale(-1, -1) rotate(-135.000000) translate(-6.252126, -10.289152) " points="1.91421638 8.27304694 1.91421638 9.36283159 8.01701624 9.36283159 5.83743969 11.5424081 6.60028877 12.3052572 10.5900353 8.31551071"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
